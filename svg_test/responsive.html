@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" name="viewport" content="width=device-width">
+		<title></title>
+	</head>
+	<body>
+		<img srcset="elva-fairy-320w.jpg 320w,
+					elva-fairy-480w.jpg 480w,
+					elva-fairy-800w.jpg 800w"
+			sizes="(max-width: 320px) 280px,
+					(max-width: 480px) 440px,
+					800px"
+			src="elva-fairy-800w.jpg" alt="Elva dressed as a fairy">
+		<img srcset="elva-fairy-320w.jpg 320w,
+		             elva-fairy-480w.jpg 480w,
+		             elva-fairy-800w.jpg 800w"
+		     sizes="(max-width: 320px) 280px,
+		            (max-width: 480px) 440px,
+		            800px"
+		     src="elva-fairy-800w.jpg" alt="Elva dressed as a fairy">
+		<img srcset="elva-fairy-320w.jpg,
+		             elva-fairy-480w.jpg 1.5x,
+		             elva-fairy-640w.jpg 2x"
+		     src="elva-fairy-640w.jpg" alt="Elva dressed as a fairy">
+		<img src="elva-800w.jpg" alt="Chris standing up holding his daughter Elva">
+		<picture>
+			<source media="(max-width: 799px)" srcset="elva-480w-close-portrait.jpg">
+			<source media="(max-width: 800px)" srcset="elva-800w.jpg">
+			<img src="elva-800w.jpg" alt="Chris standing up holding his daughter Elva"/>
+		</picture>
+		<picture>
+		  <source media="(max-width: 799px)" srcset="elva-480w-close-portrait.jpg">
+		  <source media="(max-width: 800px)" srcset="elva-800w.jpg">
+		  <img src="elva-800w.jpg" alt="Chris standing up holding his daughter Elva">
+		</picture>
+		<picture>
+			<source type="image/svg+xml" srcset="pyramid.svg">
+			<source type="image/webp" srcset="pryamid.webp">
+			<img src="pyramid.png" alt="regular pyramid built from four equilateral triangles">
+		</picture>
+		<picture>
+		  <source type="image/svg+xml" srcset="pyramid.svg">
+		  <source type="image/webp" srcset="pyramid.webp">
+		  <img src="pyramid.png" alt="regular pyramid built from four equilateral triangles">
+		</picture>
+
+
+	</body>
+</html>
